@@ -42,8 +42,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
     const tokenId = 'hyperliquid';
-    const url = `https://api.coingecko.com/api/v3/coins/${tokenId}`;
-    const urlChart = `https://api.coingecko.com/api/v3/coins/${tokenId}/market_chart?vs_currency=usd&days=1`;
+    const url = `https://api.coingecko.com/api/v3/coins/hyperliquid`;
+    const urlChart = `https://api.coingecko.com/api/v3/coins/hyperliquid/market_chart?vs_currency=usd&days=1`;
 
     // Fonction pour récupérer les données du token
     async function fetchData() {
